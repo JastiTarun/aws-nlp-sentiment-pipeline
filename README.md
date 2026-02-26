@@ -1,61 +1,89 @@
 # AWS NLP Sentiment Analysis Pipeline
 
-An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews and performs batch sentiment inference using managed cloud services.
+An end-to-end AWS data engineering and machine learning pipeline that processes Amazon product reviews and performs batch sentiment inference using managed cloud services.
 
 ---
 
-## Architecture Overview
+## 🚀 Architecture Overview
 
-![Architecture](aarchitecture/architecture-diagram.png)
+View Architecture Diagram:  
+[Open Architecture Diagram](architecture/aws-sentiment-pipeline-architecture.png)
+
+This project implements a cloud-native pipeline integrating data engineering, machine learning, and analytics services on AWS.
 
 ---
 
-## Services Used
+## ☁️ Services Used
 
-- Amazon S3 (Raw, Processed, Predictions)
+- Amazon S3 (Raw, Processed, Predictions storage)
 - AWS Glue Crawler
 - AWS Glue ETL Jobs
-- Amazon SageMaker (Batch Inference)
+- Amazon SageMaker (Batch Sentiment Inference)
 - Amazon Athena
 - Amazon QuickSight
 
 ---
 
-## Pipeline Flow
+## 🔄 Pipeline Flow
 
-1. Raw Amazon reviews stored in S3
-2. Glue Crawler performs schema discovery
-3. Glue ETL job cleans and transforms data
-4. Processed data stored in S3
-5. SageMaker runs batch sentiment inference
-6. Predictions stored in S3
-7. Athena queries prediction results
-8. QuickSight dashboard visualizes insights
-
----
-
-## Output
-
-- Sentiment distribution analysis
-- Rating vs Sentiment correlation
-- Top products with negative sentiment
-- Interactive BI dashboard in QuickSight
+1. Raw Amazon reviews stored in Amazon S3  
+2. AWS Glue Crawler performs schema discovery  
+3. AWS Glue ETL job cleans and transforms review data  
+4. Processed data written back to S3  
+5. Amazon SageMaker performs batch sentiment inference using a transformer-based model  
+6. Prediction outputs stored in S3  
+7. Amazon Athena queries sentiment prediction results  
+8. Amazon QuickSight visualizes insights through an interactive dashboard  
 
 ---
 
-## Skills Demonstrated
+## 📊 Dashboard
 
-- Data Lake architecture
-- ETL orchestration
-- Serverless analytics
-- Managed ML inference
-- Cloud data visualization
-- AWS IAM & permissions handling
+View Dashboard :  
+[Open QuickSight Dashboard](dashboard/quicksight-dashboard.png)
+
+This dashboard provides:
+
+- Sentiment distribution across reviews  
+- Rating vs sentiment correlation  
+- Products generating highest negative sentiment  
+
+---
+
+## 🤖 SageMaker Inference Notebook
+
+Access the notebook used for sentiment prediction:  
+[Open SageMaker Notebook](notebook/sagemaker_sentiment_inference.ipynb)
 
 ---
 
-## Use Case
+## 🧩 Glue ETL Script
 
-Designed as a scalable cloud-native analytics pipeline for e-commerce review analysis.
+View the AWS Glue ETL transformation logic:  
+[Open Glue ETL Script](glue/glue_etl_script.py)
 
 ---
+
+## 📊 Output & Insights
+
+- Sentiment distribution across product reviews  
+- Correlation between ratings and sentiment predictions  
+- Identification of products generating highest negative sentiment  
+- Interactive BI dashboard built in QuickSight  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Data lake architecture design  
+- ETL orchestration using AWS Glue  
+- Serverless analytics with Athena  
+- Batch ML inference using SageMaker  
+- Cloud-native data visualization  
+- AWS IAM and permission configuration  
+
+---
+
+## 📌 Use Case
+
+Designed as a scalable cloud-native analytics pipeline for e-commerce review analysis, enabling businesses to monitor customer sentiment, identify product issues, and support data-driven decision-making.
