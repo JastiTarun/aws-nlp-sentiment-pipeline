@@ -6,7 +6,7 @@ An end-to-end AWS data engineering and machine learning pipeline that processes 
 
 ## 🚀 Architecture Overview
 
-![Architecture](architecture/architecture-diagram.png)
+![Architecture](architecture/aws-sentiment-pipeline-architecture.png)
 
 This project implements a cloud-native pipeline integrating data engineering, machine learning, and analytics services on AWS.
 
