@@ -6,7 +6,7 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ## Architecture Overview
 
-![Architecture](aws-sentiment-pipeline-architecture.png)
+![Architecture](aarchitecture/architecture-diagram.png)
 
 ---
 
