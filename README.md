@@ -6,8 +6,7 @@ An end-to-end AWS data engineering and machine learning pipeline that processes 
 
 ## 🚀 Architecture Overview
 
-View Architecture Diagram:  
-[Open Architecture Diagram](architecture/aws-sentiment-pipeline-architecture.png)
+![Architecture](architecture/aws-sentiment-pipeline-architecture.png)
 
 This project implements a cloud-native pipeline integrating data engineering, machine learning, and analytics services on AWS.
 
@@ -40,7 +39,7 @@ This project implements a cloud-native pipeline integrating data engineering, ma
 ## 📊 Dashboard
 
 View Dashboard :  
-[Open QuickSight Dashboard](dashboard/quicksight-dashboard.png)
+![QuickSight Dashboard](dashboard/quicksight-dashboard.png)
 
 This dashboard provides:
 
