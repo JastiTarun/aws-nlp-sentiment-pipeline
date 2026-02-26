@@ -4,13 +4,13 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ---
 
-## 🚀 Architecture Overview
+## Architecture Overview
 
 ![Architecture](architecture/aws-sentiment-pipeline-architecture.png)
 
 ---
 
-## 🧱 Services Used
+## Services Used
 
 - Amazon S3 (Raw, Processed, Predictions)
 - AWS Glue Crawler
@@ -21,7 +21,7 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ---
 
-## 🔄 Pipeline Flow
+## Pipeline Flow
 
 1. Raw Amazon reviews stored in S3
 2. Glue Crawler performs schema discovery
@@ -34,7 +34,7 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ---
 
-## 📊 Output
+## Output
 
 - Sentiment distribution analysis
 - Rating vs Sentiment correlation
@@ -43,7 +43,7 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Data Lake architecture
 - ETL orchestration
@@ -54,7 +54,7 @@ An end-to-end AWS data engineering + ML pipeline that processes Amazon reviews a
 
 ---
 
-## 📌 Use Case
+## Use Case
 
 Designed as a scalable cloud-native analytics pipeline for e-commerce review analysis.
 
